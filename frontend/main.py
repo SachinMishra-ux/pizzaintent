@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-intent_classifier = joblib.load("./intent_classifier.joblib")
+intent_classifier = joblib.load("intent_classifier.joblib")
 
 # Streamlit app title
 st.title('Intent Prediction App')
