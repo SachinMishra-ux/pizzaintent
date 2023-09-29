@@ -1,5 +1,9 @@
 import streamlit as st
 import joblib
+import os
+
+# Get the path to the model.joblib file
+model_path = os.path.join('frontend', 'model.joblib')
 intent_classifier = joblib.load("intent_classifier.joblib")
 
 # Streamlit app title
