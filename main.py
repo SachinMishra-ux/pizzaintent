@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import os
+import sklearn
 
 # Get the path to the model.joblib file
 model_path = os.path.join('frontend', 'intent_classifier.joblib')
