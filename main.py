@@ -3,8 +3,8 @@ import joblib
 import os
 
 # Get the path to the model.joblib file
-model_path = os.path.join('frontend', 'model.joblib')
-intent_classifier = joblib.load("intent_classifier.joblib")
+model_path = os.path.join('frontend', 'intent_classifier.joblib')
+intent_classifier = joblib.load(model_path)
 
 # Streamlit app title
 st.title('Intent Prediction App')
